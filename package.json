@@ -1,0 +1,17 @@
+{
+  "name": "primeros-pasos",
+  "version": "1.0.0",
+  "description": "Primeros pasos miguel",
+  "main": "funciones.js",
+  "scripts": {
+    "test": "npm test",
+    "dev": "nodemon --watch ./index.js",
+    "calc": "node index.js -n"
+  },
+  "author": "Miguel",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "yargs": "^16.2.0"
+  }
+}
